@@ -1,0 +1,68 @@
+.testimonials {
+    display: block;
+    position: relative;
+    /* padding: 100px 0 80px; */
+    margin-top: 3rem;
+    background-image: url(./testimonilas-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.testimonials h4 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+
+.testimonials .underline {
+    border: 2px solid red;
+    width: 5%;
+    margin: auto;
+}
+
+.testimonials .carousel {
+    background-color: #000000;
+    padding: 100px 0 80px;
+    opacity: 75%;
+}
+
+.testimonials .carousel .carousel-inner .carousel-item {
+    text-align: center;
+}
+
+.testimonials .carousel .carousel-inner .carousel-item p {
+    max-width: 50%;
+    margin: auto;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.testimonials .carousel .carousel-inner .carousel-item img {
+    border-radius: 50%;
+}
+
+.testimonials .carousel .carousel-inner .carousel-item h5 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.testimonials .carousel .carousel-inner .carousel-item h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.testimonials .carousel button {
+    background: #ffffff;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin: 17rem;
+}

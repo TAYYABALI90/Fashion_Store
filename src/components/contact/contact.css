@@ -1,0 +1,161 @@
+.contact {
+    display: block;
+    position: relative;
+    background-image: url(./contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contact-content-header {
+    text-align: center;
+    padding: 3em;
+    background-color: #000000;
+    opacity: 85%;
+}
+
+.contact-content-header h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.contact-content-header small {
+    font-weight: 500;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.contact-content-details {
+    display: flex;
+    background-color: #000000;
+    padding: 0 8rem;
+    opacity: 85%;
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-content-left-details h5 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.contact-content-left-details p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.4rem;
+    width: 90%;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.contact-content-left-details p span {
+    font-weight: 600;
+    color: rgb(107, 22, 245);
+}
+
+.contact-content-left-details .small-text {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    width: 90%;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.contact-content-left-details .reach-out h5,
+.contact-content-left-details .reach-out-details {
+    margin-top: 0.5rem;
+}
+
+.contact-content-left-details .reach-out-details .phone-span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: red;
+}
+
+.contact-content-left-details .reach-out-details .number-span {
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-left: 3px;
+    color: #ffffff;
+}
+
+.contact-content-left-details .reach-out-details .fax-span {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #0e0edb;
+}
+
+.contact-content-left-details .reach-out-details .email-span {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.contact-content-right-details h5 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.contact-content-right-details .input-1 label,
+.contact-content-right-details .input-2 label,
+.contact-content-right-details .input-3 label,
+.contact-content-right-details .message-group label {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #ffffff;
+    line-height: 2.5rem;
+}
+
+.contact-content-right-details .input-1 input,
+.contact-content-right-details .input-2 input,
+.contact-content-right-details .input-3 input {
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 0.7rem;
+    border-radius: .375rem;
+    background-color: rgba(86, 90, 94, 0.1);
+    color: #ffffff;
+}
+
+.contact-content-right-details .message-group textarea {
+    border: none;
+    outline: none;
+    padding: 0.7rem;
+    border-radius: .375rem;
+    background-color: rgba(86, 90, 94, 0.1);
+    color: #ffffff;
+    resize: none;
+}
+
+.contact-content-right-details .form-btn {
+    margin-top: 1rem;
+}
+
+.contact-content-right-details .form-btn button {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 55px;
+    border-radius: .375rem;
+    background-color: #0e0edb;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.contact-content-right-details .form-btn button:hover {
+    background-color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
+}

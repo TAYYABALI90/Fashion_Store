@@ -1,0 +1,79 @@
+.newsletter {
+    height: 100%;
+    width: 100%;
+    background-color: #4b4bc0;
+}
+
+.newsletter .subscribe-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 6rem;
+}
+
+.newsletter .subscribe-newsletter .left-content h2 {
+    color: #ffffff;
+    font-size: 600;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.103);
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 5px;
+}
+
+.newsletter .subscribe-newsletter .middle-content {
+    background-color: #ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.103);
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter .subscribe-newsletter .middle-content input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 1rem;
+    color: #000;
+}
+
+.newsletter .subscribe-newsletter .middle-content button {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #000;
+    margin: 0.7rem;
+    font-size: 1.2rem;
+    transition: .5s ease;
+}
+
+.newsletter .subscribe-newsletter .middle-content button i:hover {
+    color: #4b4bc0;
+}
+
+.newsletter .subscribe-newsletter .right-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.newsletter .subscribe-newsletter .right-content i {
+    background-color: #ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.103);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.newsletter .subscribe-newsletter .right-content i:hover {
+    background-color: #000000;
+    color: #ffffff;
+}

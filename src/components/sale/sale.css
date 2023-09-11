@@ -1,0 +1,333 @@
+.sale {
+    height: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.sale .sale-content-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6rem;
+    background-color: #b4b4b438;
+    margin: 3rem 12rem;
+    padding: 0.7rem;
+}
+
+.sale .sale-content-links li {
+    list-style: none;
+}
+
+.sale .sale-content-links li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.sale .sale-content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0 12rem;
+}
+
+.sale .sale-content .left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: none;
+    outline: none;
+    width: 15rem;
+}
+
+.sale .sale-content .left-content .accordion-1,
+.sale .sale-content .left-content .accordion-2 {
+    display: grid;
+    background-color: #b4b4b438;
+    height: auto;
+}
+
+.sale .sale-content .left-content .accordion-1 h6,
+.sale .sale-content .left-content .accordion-2 h6 {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    width: 15rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sale .sale-content .left-content .accordion-1 .contentBox1,
+.sale .sale-content .left-content .accordion-2 .contentBox2 {
+    position: relative;
+    margin: 5px 5px;
+}
+
+.sale .sale-content .left-content .accordion-1 .contentBox1 .label1,
+.sale .sale-content .left-content .accordion-2 .contentBox2 .label2 {
+    position: relative;
+    padding: 10px;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sale .sale-content .left-content .accordion-1 .contentBox1 .label1::before,
+.sale .sale-content .left-content .accordion-2 .contentBox2 .label2::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.sale .sale-content .left-content .accordion-1 .contentBox1.active .label1::before,
+.sale .sale-content .left-content .accordion-2 .contentBox2.active .label2::before {
+    content: '-';
+}
+
+.sale .sale-content .left-content .accordion-1 .contentBox1 .comment1,
+.sale .sale-content .left-content .accordion-2 .contentBox2 .comment2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    line-height: 1rem;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: hidden;
+}
+
+.sale .sale-content .left-content .accordion-2 .contentBox2 .comment2 input {
+    margin-right: auto;
+    height: 1.7rem;
+    width: 1rem;
+}
+
+.color {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    border: 2px solid #fff;
+    margin-bottom: 0.3rem;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.color:nth-child(1) {
+    border: 2px solid #999;
+}
+
+.color:checked::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.color:nth-child(1):checked:before {
+    background-color: #999;
+}
+
+.range {
+    width: 100% !important;
+    background-color: #999;
+    padding: .600rem;
+}
+
+.sale .sale-content .left-content .accordion-2 .contentBox2 .comment2 p {
+    margin-top: -1.4rem;
+    margin-left: 2rem;
+}
+
+.price {
+    margin-top: 0.2rem !important;
+    margin-left: 0 !important;
+}
+
+.sale .sale-content .left-content .accordion-1 .contentBox1.active .comment1 {
+    height: 130px;
+    padding: 10px;
+}
+
+.sale .sale-content .left-content .accordion-2 .contentBox2.active .comment2 {
+    height: auto;
+    padding: 10px;
+}
+
+.sale .sale-content .left-content .left-content-img img {
+    width: 15rem;
+}
+
+.sale .sale-content .right-content .img-content img {
+    width: 100%;
+}
+
+.sale .sale-content .right-content .img-content .text-content {
+    margin-top: 1.3rem;
+}
+
+.sale .sale-content .right-content .img-content .text-content h6 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.sale .sale-content .right-content .img-content .text-content p {
+    color: #757474;
+}
+
+.sale .sale-content .right-content .sort-product-content {
+    background-color: #b4b4b438;
+    padding: 1rem;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sale .sale-content .right-content .sort-product-content .icon-content,
+.sale .sale-content .right-content .sort-product-content .sort-by-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sale .sale-content .right-content .sort-product-content .icon-content i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.sale .sale-content .right-content .sort-product-content .icon-content p,
+.sale .sale-content .right-content .sort-product-content .sort-by-content p {
+    color: #757474;
+    margin: .375rem 0;
+    font-size: 1rem;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown button {
+    background: #ffffff !important;
+    width: 13rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown button span {
+    margin-right: 6rem;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown .dropdown-menu {
+    border: none;
+    transition: 0.5s;
+    background-color: #b4b4b438 !important;
+    margin-top: 0.5rem !important;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown .dropdown-menu li {
+    width: 13rem !important;
+    padding: 0.5rem;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown .dropdown-menu li:nth-child(1) {
+    border-bottom: none;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown .dropdown-menu li:nth-child(2) {
+    border-top: none;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown .dropdown-menu li a {
+    border: 1px solid black;
+    transition: 0.6s ease;
+}
+
+.sale .sale-content .right-content .sort-product-content .sort-by-content .dropdown .dropdown-menu li a:hover {
+    background-color: black;
+    color: #ffffff;
+    border: 1px solid black;
+}
+
+.sale .sale-content .right-content .products .product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.sale .sale-content .right-content .products .product-cards .card {
+    width: 18rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sale .sale-content .right-content .products .product-cards .card h5 {
+    font-weight: 400;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 20ch;
+    color: #5e5d5d;
+    transition: .5s ease;
+}
+
+.sale .sale-content .right-content .products .product-cards .card h5:hover {
+    color: red;
+}
+
+.sale .sale-content .right-content .products .product-cards .card p {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #4d4dff;
+}
+
+.sale .sale-content .right-content .products .product-cards .card p small {
+    color: #5e5d5d;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.5rem;
+    text-decoration: line-through;
+}
+
+.sale .sale-content .right-content .products .product-cards .card span {
+    position: absolute;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 3.5rem;
+    border-radius: 1px;
+}
+
+.sale .sale-content .right-content .products .product-cards .card span:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+.sale .sale-content .right-content .showing-products {
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #b4b4b438;
+}
+
+.sale .sale-content .right-content .showing-products p {
+    margin: .200rem 0;
+    color: #757474;
+    font-size: 1rem;
+}

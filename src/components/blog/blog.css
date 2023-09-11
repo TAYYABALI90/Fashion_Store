@@ -1,0 +1,73 @@
+.blog {
+    height: 100%;
+    width: 100%;
+}
+
+.blog h4 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #000;
+    margin-top: 5rem;
+}
+
+.blog .underline {
+    border: 2px solid red;
+    width: 5%;
+    margin: auto;
+}
+
+.blog .blog-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.blog .blog-cards .card {
+    width: 23rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.blog .blog-cards .card h5 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    max-width: 30ch;
+    color: #000000;
+    transition: .5s ease;
+}
+
+.blog .blog-cards .card h5:hover {
+    color: red;
+}
+
+.blog .blog-cards .card p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #000000;
+    max-width: 38ch;
+}
+
+.blog .blog-cards .card p small {
+    color: #5e5d5d;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.5rem;
+    text-decoration: line-through;
+}
+
+.blog .blog-cards .card span {
+    position: absolute;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 3.5rem;
+    border-radius: 1px;
+}
+
+.blog .blog-cards .card span:nth-child(2) {
+    position: absolute;
+    right: 0;
+}

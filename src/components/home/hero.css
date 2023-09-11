@@ -1,0 +1,85 @@
+.hero {
+    height: 100%;
+    width: 100%;
+}
+
+.hero .hero-content {
+    display: flex;
+    align-items: center;
+    background-color: #4d4dff;
+}
+
+.hero .hero-content .img-content img {
+    width: 100%;
+    margin: 1rem;
+}
+
+.hero .hero-content .content .sale {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.hero .hero-content .content .sale h1:nth-child(1) {
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.hero .hero-content .content .sale h1:nth-child(2) {
+    color: #c5c4c4;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.hero .hero-content .content .winter h1 {
+    color: #000000;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: -1rem;
+}
+
+.hero .hero-content .content .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.hero .hero-content .content .brand h6 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}
+
+.hero .hero-content .content .brand h1 {
+    color: #c5c4c4;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero .hero-content .content .brands h1 {
+    color: #0f0344;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero .hero-content .shop-button button {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .5s ease;
+}
+
+.hero .hero-content .shop-button button:hover {
+    background-color: #000000;
+    color: #fff;
+}
